@@ -1,12 +1,16 @@
+
 //
-// Created by Philippe Nadon on 2019-02-04.
+// Created by phil on 2/5/19.
 //
 
-#ifndef CHARFREQ_CHARFREQ_H
-#define CHARFREQ_CHARFREQ_H
+#ifndef ASSIGNMENT1_CHARFREQ_H
+#define ASSIGNMENT1_CHARFREQ_H
 
-int readSI();
+void readFile( int charCount[], char fileArg[]);
 
+void sortChar(int *charCount, char inChar);
 
+void printCounts( int charCount[]);
 
-#endif //CHARFREQ_CHARFREQ_H
+#endif //ASSIGNMENT1_CHARFREQ_H
+
